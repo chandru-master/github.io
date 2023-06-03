@@ -1,0 +1,78 @@
+<div class="tb-position--relative main current" ngClass.xs="xs" ngClass.sm="sm" #animRefView>
+
+    <div class="tb-container tb-position--relative container">
+        <div fxLayout="column" fxLayoutAlign="start stretch">
+
+
+            <div ngClass.gt-xs="tb-height--64" ngClass.xs="tb-height--20"></div>
+
+            <h3 [@transitionText]="{value:_mTriggerAnim, params:{animDelay:100}}" ngClass.gt-sm="current-typo--h3-light"
+                ngClass.sm="current-typo--h3-light" ngClass.xs="current-typo--h4">Experience.</h3>
+            <div ngClass.gt-xs="tb-height--48" ngClass.xs="tb-height--20"></div>
+
+            <app-client-apps></app-client-apps>
+
+          
+            <div ngClass.gt-xs="tb-height--64" ngClass.xs="tb-height--24"></div>
+
+            <app-my-apps></app-my-apps>
+
+          
+            <div ngClass.gt-xs="tb-height--64" ngClass.xs="tb-height--20"></div>
+
+            <app-icons></app-icons>
+            <div ngClass.gt-xs="tb-height--36" ngClass.xs="tb-height--24"></div>
+
+
+            <div [@transitionText]="{value:_mTriggerAnim, params:{animDelay:200}}" fxLayout="row"
+                fxLayoutAlign="start end">
+                <h4 class="section-title current-typo--h4 tb-flex--shrink-0">Certificates Earned.</h4>
+                <div class="tb-width--12"></div>
+                <div fxFlex="60" class="line tb-color-bg--black"></div>
+                <div fxFlex class=""></div>
+            </div>
+            <div ngClass.gt-xs="tb-height--56" ngClass.xs="tb-height--20"></div>
+
+            <div [@transitionImageScale]="{value:_mTriggerAnim, params: {animDelay: 400}}" class="logos-area"
+                fxLayout.gt-xs="row" fxLayout.xs="column" fxLayoutAlign.gt-xs="start center"
+                fxLayoutAlign.xs="start start" fxLayoutGap="12">
+                <div fxFlex.gt-xs="13" fxFlex.xs="none" class="logo-area logo-area-small tb-color-bg--green-300">
+                    <img class="tb-image image" src="assets/img/logos/big.png" />
+                </div>
+                <div class="logo-area-row" fxFlex.gt-xs="17" fxFlex.xs="none" fxLayout.xs="row" fxLayout.gt-xs="column"
+                    fxLayoutGap="12">
+                    <div fxFlex="35" class="logo-area logo-area-1 tb-color-bg--blue-300">
+
+                        <img class="tb-image image" src="assets/img/logos/deep.png" />
+                    </div>
+                    <div fxFlex="65" class="logo-area logo-area-2 tb-color-bg--orange-300">
+
+                        <img class="tb-image image" src="assets/img/logos/block.png" />
+                    </div>
+
+                </div>
+                <div fxFlex.gt-xs="40" fxFlex.xs="none" class="logo-area logo-area-large tb-color-bg--red-300">
+                    <img class="tb-image image" src="assets/img/logos/nlp_cert.jpg" />
+                </div>
+                <div class="logo-area-row" fxFlex.gt-xs="17" fxFlex.xs="none" fxLayout.xs="row" fxLayout.gt-xs="column"
+                    fxLayoutGap="12">
+                    <div fxFlex="65" class="logo-area logo-area-2 tb-color-bg--orange-300">
+                        <img class="tb-image image" src="assets/img/logos/mongo_db.jpg" />
+                    </div>
+                    <div fxFlex="35" class="logo-area logo-area-1 tb-color-bg--blue-300">
+                        <img class="tb-image image" src="assets/img/logos/scrum.png" />
+
+                    </div>
+                </div>
+                <div fxFlex.gt-xs="13" fxFlex.xs="none" class="logo-area logo-area-small tb-color-bg--green-300">
+                    <img class="tb-image image" src="assets/img/logos/modern_data.jpg" />
+
+                </div>
+            </div>
+
+            <div ngClass.gt-xs="tb-height--64" ngClass.xs="tb-height--20"></div>
+            <div ngClass.gt-xs="tb-height--36" ngClass.xs="tb-height--24"></div>
+
+        </div>
+    </div>
+</div>
