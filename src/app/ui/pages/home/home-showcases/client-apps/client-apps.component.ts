@@ -132,7 +132,7 @@ export class ClientAppsComponent implements OnInit {
 
    {
      "id": "5132",
-     "name": "1 year: Freelancer [Front end devoloper]",
+     "name": "1 year: Freelancer - Front end developer",
      "image": "assets/img/clients/freelancer.png",
      "link": "",
      "tab": "Flutter"
